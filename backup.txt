@@ -1,0 +1,12 @@
+Circle t = new Circle();
+Circle b = new Circle();
+Circle h = new Circle();
+Snake s = new Snake(10, 15, h, b, t);
+s.right();
+s.left();
+s.down();
+s.randomWalk();
+s.home();
+s.moveTo(125, 175);
+s.getHeadXPos();
+s.getHeadYPos();

@@ -1,6 +1,3 @@
-# Moving snake in java
-
-
 //initial creation of snake at (10,15)
 Circle t = new Circle();
 Circle b = new Circle();
@@ -32,5 +29,8 @@ s.up(); // can't move up - hit edge
 s.home();
 s.randomWalk();
 s.home();
+
+
+
 
 
